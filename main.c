@@ -3,10 +3,7 @@
 // Work 07
 // 11-18-2016
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
+#include "main.h"
 
 int main() {
 

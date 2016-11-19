@@ -1,5 +1,9 @@
-compile: main.c
-	gcc main.c
+make : main.c
+	gcc main.c -o exec.out
 
-run: compile
-	./a.out
+run: make
+	./exec.out
+
+clean:
+	rm -rf *~
+	rm exec.out
